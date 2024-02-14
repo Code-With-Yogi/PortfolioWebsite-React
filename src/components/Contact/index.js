@@ -138,7 +138,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_e084pkg', 'template_o3vgi6c', form.current, 'fq3l9xGQ5Jb1IHyvS')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -146,6 +146,7 @@ const Contact = () => {
         console.log(error.text);
       });
   };
+  
 
   return (
     <Container>
@@ -156,10 +157,10 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="from_email" required/>
+          <ContactInput placeholder="Your Name" name="from_name"required/>
+          <ContactInput placeholder="Subject" name="subject" required/>
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar

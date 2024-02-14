@@ -1,8 +1,9 @@
 import React from "react";
-import styled from "styled-components";
+
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 import { useTheme } from "styled-components";
+
 import {
   Nav,
   NavLink,
@@ -13,10 +14,8 @@ import {
   GitHubButton,
   ButtonContainer,
   MobileIcon,
-  MobileMenu,
-  MobileLink,
-  MobileNavLogo,
   MobileMenuLink,
+  MobileMenuItems,
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 
@@ -33,7 +32,7 @@ function Navbar() {
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20;",
+              marginBottom: "20",
               cursor: "pointer",
             }}
           >
@@ -45,7 +44,6 @@ function Navbar() {
           <FaBars
             onClick={() => {
               setOpen(!open);
-              console.log("clicked");
             }}
           />
         </MobileIcon>
@@ -57,11 +55,13 @@ function Navbar() {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton>Github Profile</GitHubButton>
+          <GitHubButton href={Bio.github} target="_blank">
+            Github Profile
+          </GitHubButton>
         </ButtonContainer>
 
         {open && (
-          <MobileMenu open={open}>
+          <MobileMenuItems  open={open}>
             <MobileMenuLink
               href="#about"
               onClick={() => {
@@ -109,12 +109,10 @@ function Navbar() {
                 color: "white",
                 width: "max-content",
               }}
-              href={Bio.github}
-              target="display"
             >
               Github Profile
             </GitHubButton>
-          </MobileMenu>
+          </MobileMenuItems>
         )}
       </NavbarContainer>
     </Nav>

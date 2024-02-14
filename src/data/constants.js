@@ -411,73 +411,59 @@ export const Bio = {
       title: "Currecncy Converter",
       date: "Jun 2024 - Feb 2024",
       description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "I developed a currency conversion application using React, a popular JavaScript library for building user interfaces, and integrated it with an API to facilitate real-time currency conversions. The primary objective of this project was to create a user-friendly and efficient tool for users to convert currencies seamlessly.",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://github.com/Code-With-Yogi/currencyConvertor/blob/main/src/assets/currency_converter.png?raw=true",
       tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
+        "React",
+        "API",
+        "Tailwind",
+        "JavaScript",
       ],
       category: "web app",
       github: "https://github.com/Code-With-Yogi/currencyConvertor",
       webapp: "https://currencyconverter-yogi.netlify.app/",
     },
-    // {
-    //   id: 0,
-    //   title: "Podstream",
-    //   date: "Apr 2023 - May 2023",
-    //   description:
-    //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Podstream",
-    //   webapp: "https://podstream.netlify.app/",
-    //   member: [
-    //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
-    //     },
-    //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 1,
-    //   title: "Vexa",
-    //   date: "Oct 2022 - Jan 2023",
-    //   description:
-    //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    //   tags: [
-    //     "React Js",
-    //     "MongoDb",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //     "NodeMailer",
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Project-Management-App",
-    //   webapp: "https://vexa-app.netlify.app/",
-    // },
+    {
+      id: 0,
+      title: "Quiz Application",
+      date: "Oct 2023 - Nov 2023",
+      description:
+        "I developed a dynamic quiz application that utilizes an API to fetch a wide range of questions from various categories. This project aimed to provide users with an engaging and educational experience by offering an extensive collection of questions across different topics.",
+      image:
+        "https://github.com/Code-With-Yogi/Quiz-App/blob/main/quiz-app.png?raw=true",
+      tags: ["HTML", "Tailwind", "JavaScript", "JSON"],
+      category: "web app",
+      github: "https://github.com/Code-With-Yogi/Quiz-App",
+      webapp: "https://quiz-yogi.netlify.app",
+      member: [
+        // {
+        //   name: "Yogesh Dahatonde",
+        //   img: "https://github.com/Code-With-Yogi/Quiz-App/blob/main/quiz-app.png?raw=true",
+        //   linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        //   github: "https://github.com/rishavchanda/",
+        // }
+        
+      ],
+    },
+    {
+      id: 1,
+      title: "ToDO App",
+      date: "Oct 2023 - Oct 2023",
+      description:
+        "ToDo App by using JavaScript in which user can add new task and cross it when it is done",
+      image:
+        "https://github.com/Code-With-Yogi/ToDoApplication-JavaScript/blob/main/img/to%20do%20application.png?raw=true",
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaSCript",
+        
+      ],
+      category: "web app",
+      github: "https://github.com/Code-With-Yogi/ToDoApplication-JavaScript/",
+      webapp: "https://code-with-yogi.github.io/ToDoApplication-JavaScript/",
+    },
     // {
     //   id: 2,
     //   title: "Brain Tumor Detection",
